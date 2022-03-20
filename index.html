@@ -1,0 +1,172 @@
+<html>
+    <body>
+        <header>
+            <title>Mysite</title>
+            <link rel="stylesheet" href="Assets/Css/style.css">
+            <meta name="viewreport" About="widht=device-widht, initial-scale=1">
+            <link rel="stylesheet" href="awesome/css/all.css">
+            <script src="Assets/Javascript/btn.js"></script>
+            <nav>
+                <ul>
+                    <img src="logo.png" class="logo">
+                    <li><a href="#ContactMe">Contact Me</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#Home">Home</a></li>
+                </ul>
+            </nav>
+            <div>
+                <img src="homebg.png" class="home-cover">
+                <img src="Myphoto.png" class="profile">
+                <div class="nama">
+                    <h1>Hello! <br> I am Vanya</h1>
+                </div>
+                <div class="profesi"> a Graphic Designer and Illustrator</div>
+            </div>
+            
+            
+        </header>
+        
+        <main>
+            <!-- <div id="About"> -->
+                <a class="AboutMe"></a>
+                <article id="AboutMe">
+                    <div class="whoiam">
+                        <p>Hi! 
+                            my name is Vanya Vidya Vimala, <br> a Graphic designer and illustrator based in Solo. <br> I am 19 years old and i love art and design at an early age, <br> so I've dedicated my life to it. <br>
+                            i am interested in gaining new knowledge and creative designs. <br> I have great time management and <br> always seek opportunities to improve my skills.
+                        </p>
+                    </div>
+                    <img src="Assets/Image/aboutmephotobg.png"class="aboutme-cover"> 
+                    <img src="Assets/Image/newboutmepic.png" class="bluephoto">
+                    <div class="biodata">
+                        <h2>A <br> B <br> O <br> U <br> T</h2>
+                    </div>
+                    <div class="fontme">
+                        <h2>M <br> E </h2>
+                    </div>
+                </article>
+            
+                    
+                    <article id="Portfolio">
+                        <div class="judulportfolio">
+                        <h2>This is My Portfolio</h2>
+                    </div>
+                    <img src="Assets/Image/circle.png" class="circle">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                          <div class="flip-box-front">
+                            <img src="Assets/Image/pp.png" alt="vbg" style="width:250px;height:200px">
+                          </div>
+                          <div class="flip-box-back">
+                            <h2>Design Virtual Background</h2>
+                            <p>EPIC 2020 & EPIC 2021</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-box2">
+                        <div class="flip-box-inner2">
+                          <div class="flip-box-front2">
+                            <img src="Assets/Image/pp2.jpg" alt="Fotografi" style="width:250px;height:200px">
+                          </div>
+                          <div class="flip-box-back2">
+                            <h2>Photography</h2>
+                            <p>Photo Product for Kalyana brand</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-box3">
+                        <div class="flip-box-inner3">
+                          <div class="flip-box-front3">
+                            <img src="Assets/Image/pp3.png" alt="poster" style="width:250px;height:200px">
+                          </div>
+                          <div class="flip-box-back3">
+                            <h2>Design Poster</h2>
+                            <p>Poster Welcoming Party <br> KMK UC 2021</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flip-box4">
+                        <div class="flip-box-inner4">
+                          <div class="flip-box-front4">
+                            <img src="Assets/Image/pp4.png" alt="logo" style="width:250px;height:200px">
+                          </div>
+                          <div class="flip-box-back4">
+                            <h2>Design logo</h2>
+                            <p>Logo for It's stellify brand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+                <div class="btnCV">
+                    <a href="https://drive.google.com/file/d/1vv-5elS8OAGSjsk_1UJEHfAhZxSo2prS/view?usp=sharing">See My CV</a>
+                </div>
+               
+            
+                <article id="ContactMe">
+                    <div class="judulsocmed">
+                        <h2>Get In Touch</h2>
+                     <div class="wrapper">
+                         <h5>Send me a Message</h5>
+                     <div id="error_message"></div>  
+                        <form id="myform" onsubmit="return validation()">
+                         <div class="input_field">
+                             <input type="text" placeholder="Name" id="name" required>
+                         </div>
+                         <div class="input_field">
+                            <input type="text" placeholder="Subject" id="subject" required>
+                        </div>
+                        <div class="input_field">
+                            <input type="text" placeholder="Phone" id="Phone" required>
+                        </div>
+                        <div class="input_field">
+                            <input type="text" placeholder="Email" id="email" required>
+                        </div>
+                        <div class="input_field">
+                            <textarea id="message" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <input type="submit">
+                        </div>
+                        <div class="reachusbox">
+                            <h6>Reach Me</h6>
+                            <table>
+                                <tr>
+                                    <td>Email :</td>
+                                    <td>vanyavimala2015@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Phone :</td>
+                                    <td>085 647 400 540</td>
+                                </tr>
+                                <tr>
+                                    <td>Address:</td>
+                                    <td>Nusukan, Surakarta</td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                        <button type="change" id="tombolubahwarna">Change Background color</button>
+                        <script src="Assets/Javascript/app.js"></script>
+                    </form>
+                </div>   
+            </article>
+            
+            <a href="#AboutMe"><img src="Assets/Image/up.png" class="up" width="50px" height="50px"/></a>
+            </div>
+        </main>
+        <footer>
+            <div class="icon">
+                <a href="https://www.instagram.com/arl_vanya/"><i class= "fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCDSBrIaxiIErKipR337MpGg"><i class= "fab fa-youtube"></i></a>
+                <a href="https://id-id.facebook.com/"><i class= "fab fa-facebook"></i></a>
+                <a href="https://wa.me/081558852547"><i class= "fab fa-whatsapp"></i></a>
+                <p>Made with &#169;2021.Vanya Vidya Vimala.</p>
+            </div>
+        </footer>
+    </body>
+</html>
